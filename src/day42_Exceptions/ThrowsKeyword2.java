@@ -9,6 +9,7 @@ public class ThrowsKeyword2 {
         System.out.println(8/0);
 
         System.out.println("Test completed");
+        System.out.println("Testingg");
 
 
     }

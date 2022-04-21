@@ -1,0 +1,5 @@
+Week9: 2+2+4 Java
+weeek 10 : 13 hours java
+
+
+split method turns your string into array

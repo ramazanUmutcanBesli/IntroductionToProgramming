@@ -1,0 +1,21 @@
+Today's Topics:
+    - we will create an app that will help us prepare a shopping lıst and we can print out thıs list
+    -Class& Object
+    -ArrayList
+    String Manipulatıon
+    Loops& switch Statement
+
+    1. create a custom class called GroceryList
+        Instance Varıalbe
+        - we have only one attribute : an Arrraylist named 'groceryList'
+        Instance MEthods
+        - addGroceryItem
+        -prınt groceryLıst (toString)
+        -remove
+        -modıfy
+        -findItem
+    2. In the Maın class that wıll implement the blueprint
+        - print ınstructıons to user as a menu to select from possible options
+                        - print instructions
+                        - add new Item
+                        - remove Item..etc.

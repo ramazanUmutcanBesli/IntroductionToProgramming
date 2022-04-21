@@ -1,0 +1,23 @@
+Topic:  1. Creating Multiple class in a file
+		2. Statics
+			- Variables
+			- Methods
+			- static import
+
+AÇIKLAMA:********
+eğer oluşturdugun bir programı yada sınıfları github dışında paylaşmak istiyorsan. folderların dışında bir sınıf
+oluşturup bu sınıfın içinde default yani herhangi bir access modifier kullanmadan başka sınıflar oluşturabilir ve
+kodunu kopyalayıp paylaşabilirsin
+her sınıf public modifier bulundurmak zorundadır bu yüzden public modifier i oluşturdugun folderın ismiyle aynı
+olan class a vermelisin diğer türlü dizin hatası verir
+yararları: her platformun kendine ait charakter sayı limiti vardır ve bunu geçmene izin vermez ama bu şekilde class
+olarak paylaşırsan hem diğer insanların faydalanması hemde düzen olarak daha iyi olucaktır
+
+Static kelimesini sadece bir kopyaya ihtiyacımız oldugunda ve oluşturulan objelerde yer kaplanmaması için kullanırız.
+ıphone sınıfında hepsının sisteminin İOS olması ortak bir özelliktir ve bu yüzden OS variableı i İOS olarak static
+ tanımlayabiliriz.
+static variableı sınıfta tanımladıgımızda bir kez daha obje oluştururken tanımlamamıza gerek yoktur buda bize bellekte
+gereksiz yertutumunu önler.
+static methodlar sadece static memberları kendi içinde barındırabilir bu methodlarda instance variableları barındıramayız
+fakat instance methodlarda static ve instance memberları bulundurabiliriz ama bu önerilmez çünkü bellekte gereksiz yer
+tutumuna sebep olur.

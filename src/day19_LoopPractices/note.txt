@@ -1,0 +1,33 @@
+for loop: iteration is fixed
+        for(initi; condition; iteration){
+            statements
+        }
+        initialization: starting point
+            int i =5;
+
+        condition: ending point
+            i< 10, i>=0
+        iterator : Co-related to the condition. runs long enough to make the condition false
+            i++ , i++
+
+
+while loop: iteration is not fixed, repeated if
+        while(condition){
+            Statement
+        }
+
+
+do-While loop :iteration is not fixed
+        do{
+            statements
+        }while(condition);
+
+
+
+
+Nested loop : loop inside a loop (inner& outer)
+outer loop repeats the inner
+
+break;    exits the loop & switch
+continue;  skips the current iteration of the loop
+System.exit(0); terminates the current program

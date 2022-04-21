@@ -1,0 +1,29 @@
+Array Utility class
+toString(): Converts the array object (single dimensional) to string, returns string
+sort() sorts the array in ascending order
+        ascending order: smallest to large
+        0-9
+        a-z(97)
+        A-Z(65)
+
+equals(array1,array2):
+
+copyOf(array,newLength): copys the elements of the array, starting from first element to
+given number return
+
+copyOfRange(array,beginningIndex,EndingIndex): copys the elements of the array, starting from
+beginning
+
+
+String Methods:
+        toCharArray(): return a char array
+        "abc".toCharArray()===> 'a','b','c'
+
+
+        split(value): returns String array
+        "I love learning java programming language".split(" ")
+        {"I", "love","learning", "Java", "Programming"....}
+
+        "ABC".split("")==> {"A","B", "C"}
+
+

@@ -1,0 +1,22 @@
+length(): returns the total number of characters, returns int
+        last index = length()-1
+        "CYDEO"
+         01234
+
+3. Immutable once the object is created it can not be modified
+
+        String str = "cydeo";
+            str= str.toUpperCase();//"CYDEO"
+
+CharAt(index): returns the character at the given index, returns
+char
+            String s= "Python"
+            s.charAt(3)==> 'h'
+toLowerCase(): returns new String in the lower case version
+of old string object
+toUpperCase(): returns new String in the upper case version
+of old string object
+equals(): checks if the two objects are equal return boolean
+indexOf(Str) returns the index number of first occured character
+lastindexOf(str). returns the index number of last occured character
+replace(oldvalue,NewValue)

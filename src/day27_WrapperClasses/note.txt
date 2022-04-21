@@ -1,0 +1,2 @@
+ parse methods : converts String to primitive
+ valueOf methods: converts String to wrapper Classes

@@ -1,0 +1,61 @@
+Conditional Statements in JAVA ( Control flow Statements)
+if Condition:
+    - single if statements (door: opens only if condition is true)
+    - if ... else ...
+    - if ... else if ... else if ... else
+    - nested if
+Switch: very similar multi branch ifs (like an elevator)
+
+ternary Operator:
+    -> variable = condition? truValue: falseValue;
+    ==============================================
+All Conditionals work with boolean values (true, false)
+    * Comparison Operators
+    >,> ,>=,<= ,==, !=
+    * boolean variables
+        - boolean isMarried = false;
+    * String : equals() method reveal boolean result (true, false)
+    *isDisplayed()-> produces boolean result
+======================================================
+A
+if (Condition){
+B
+}else{
+C
+}
+D
+ 1. Condition is true
+    A
+    B
+    D
+ * C will be skipped
+2. Condition is false
+    A
+    C
+    D
+ * B will be skipped
+=========================================================
+Shortcut for alignment:
+command+option+L Windows
+=========================================
+How can i make a regular directory a source root?
+
+marc directory as> sources root
+=======================================================
+Nested if:
+We can put IF statement inside another if statement
+WHEN :
+if you have only one statement in the IF block
+ADVICE:
+Always use curly braces
+=================== SWITCH STATEMENTS ==================
+===========
+DEBUG
+when you have some kind of bug in your code, you want to find it and fix it
+steps:
+1. put breakpoint by clicking on left panel where line numbers are
+2. run as DEBUG (BUG ICON)
+3. Your compiler stops the execution at that line
+4. to move your compiler step by step " click on step over"
+help to analyse mistakes
+Benefit : you can see the flow of the execution of your codes, variables and their values

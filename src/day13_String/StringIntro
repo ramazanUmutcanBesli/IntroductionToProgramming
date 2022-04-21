@@ -1,0 +1,7 @@
+ you must
+ import java.lang.String;
+ String class included text or part of text
+ sequences of characters
+ there are 2 ways to create String
+ 1: String s= "blabalbalba";by String Literal
+ 2: String s= new String("JAva"); by new keyword method

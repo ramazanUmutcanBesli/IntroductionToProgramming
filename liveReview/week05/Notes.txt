@@ -1,0 +1,12 @@
+* Strings : Sequence of characters, each character has
+representative number called " index number"
+        String str =" Java" ;
+                      0123
+* is the length and index mean the same thing?
+the length str = 4
+* immutable : not changing
+mutation
+String are created in two ways
+-literal
+-keyword
+

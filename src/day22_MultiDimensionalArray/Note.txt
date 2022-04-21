@@ -1,0 +1,32 @@
+Array : one of the three data structures
+        size is fixed
+        supports primitives & non-primitives
+        can be multi-dimensional
+
+        one dimensional array: array of elements
+            [index of elements]
+        multi-dimensional array: array of arrays,two or more dimensional([][][]..)
+        [Index of arrays][index of Elements]
+        [][][]
+
+        n dimensional array contains(n-1) dimensional array
+
+Arrays: utility class for array. in"java.util" package
+
+        toString(): 1 dimensional array to write
+        deepToString():multi dimensional array in console write
+        sort(): it is sorting large to small
+        equals(): it compares equals or not index by indexes
+        copyOf():it copies at the begining to end
+        copyOfRange():it copies spesific indexes
+
+String Methods for arrays:
+        toCharArray(): it returns charArray for the string arrays verilen bir metni chara ayirip array yapar
+        split():it returns string array for the string arrays verilen bir metni belirtilen harften itibaren stringlere ayirir
+
+for each loop :already iterated
+                iteration order is fixed yani fordaki gibi azaltip artirmaya karar verilemez
+                there must be Data Structure : arrays , collections,maps
+                for(DataType variable: Array){
+
+                }

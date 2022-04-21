@@ -1,0 +1,16 @@
+Custom Class : Class&Object
+1. Intstance Variables& ınstance methods
+2. toString
+3. Constructors
+4. static
+
+main methoda ihtiyacımız yoktur çünkü bu custom class sadece obje oluşturmak için kullanılır yazmak bi işlem için kullanılmaz
+
+öncelikle vermemiz gereken variablelar verilir örneğin name model year...
+daha sonra bu objeleri ve variableları kullanmamız için toString methodu ve setInfo methodu oluşturulur.
+daha sonra yapılacak olan actionlar girilir. diğer bir sınıfta bu class için objeler oluşturulur.
+setInfo methodu ile bu objelere değerler atanır ve işlemler gerçekleştirilir
+
+this. keyword : for calling instance vaiable to connect local variable
+
+

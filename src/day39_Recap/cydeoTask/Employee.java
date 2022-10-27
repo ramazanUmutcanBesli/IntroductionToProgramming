@@ -19,7 +19,7 @@ public class Employee extends Person{
 
     public void setEmployeeID(int employeeID) {
         if(employeeID<=0){
-            System.err.println("employee ID is invalid :" + employeeID);
+            System.err.println("Employee ID is invalid :" + employeeID);
             System.exit(3);
         }
         this.employeeID=employeeID;
@@ -27,7 +27,7 @@ public class Employee extends Person{
 
     public void setJobTitle(String jobTitle) {
         if(jobTitle.isBlank()||jobTitle.isEmpty()){
-            System.err.println("employee title is invalid : " + jobTitle);
+            System.err.println("Employee title is invalid : " + jobTitle);
             System.exit(4);
         }
         this.jobTitle=jobTitle;
@@ -35,7 +35,7 @@ public class Employee extends Person{
 
     public void setSalary(double salary) {
         if (salary<=0){
-            System.err.println("employee salary is invalid" + salary);
+            System.err.println("Employee salary is invalid" + salary);
             System.exit(5);
         }
         this.salary=salary;

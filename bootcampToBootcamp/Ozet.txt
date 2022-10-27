@@ -1,0 +1,4 @@
+Heap: Objects, Instance Variables, Static Variables (After Java 8 Version)
+stack: Method invocations, Local variables
+
+Non-heap Memory: Methods area , static variables

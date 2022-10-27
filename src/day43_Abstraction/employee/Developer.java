@@ -1,6 +1,6 @@
 package day43_Abstraction.employee;
 
-public class Developer extends employee{
+public class Developer extends Employee {
     public Developer(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender, id, jobTitle, salary);
     }

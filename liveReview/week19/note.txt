@@ -1,0 +1,37 @@
+What is collection framework?
+    Classes, Interfaces which are extended or implemented in such way to build this
+    connection
+
+Why do we need Collection framework?
+    to organize our Data
+
+
+interview perspective:
+    What is the difference between .... (list) and .... (Set)?
+    How did you use .... (linkedList) in your framework?
+    we need to know collection framework verbally
+
+
+Usage Perspective:
+    * ArrayList
+    * List
+    * Set
+    * Map, List of Maps
+    * Arrays
+Data - Store (group of Data)
+Arrays (limited: fixed size , homogenious)
+
+Benefits: Growable, Different types of Data, OOP Concepts-Polymorphism, Methods
+
+sync: Running slow ( Vector) -- Thread-safe
+not sync: faster (arraylist)
+
+All collections are iterable. ( iterable is an object, which one can iterate over)
+
+Traverse : travel from back to forward
+
+List interface takes dublicate, index, keeps order
+    allows null values
+
+
+
